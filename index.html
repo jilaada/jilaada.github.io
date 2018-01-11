@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Jilado</title>
-  <link href="style.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+  <link href="static/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300:400:700" rel="stylesheet">
 
 </head>
 <body>
@@ -16,11 +16,22 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
+ 
+  <script>
+   var choices = ["a", "o", "i", "ava", "u"]
+   var rand1 = choices[Math.floor(Math.random() * choices.length)];
+   var rand2 = choices[Math.floor(Math.random() * choices.length)];
+   var rand3 = choices[Math.floor(Math.random() * choices.length)];
+   var name = "j" + rand1 + "l" + rand2 + "d" + rand3
+   
+   document.write(name)
+  </script>
+
+  <h2 class="tagline">Hi I am not related to Doctor Who</h2>
   <section class="body">
-    <h2 class="tagline">Hi I am not related to Doctor Who</h2>
     <ul>
       <li>
-        <a href="mailto:jilada@jilado.com">Email</a>
+        <a href="mailto:jilada.eccleston@gmail.com">Email</a>
       </li>
       <li>
         <a href="https://github.com/jilaada">GitHub</a>
