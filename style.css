@@ -1,0 +1,45 @@
+html, body {
+  --accent-color: #e74c3c;
+  --text-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body, button {
+  font-family: 'Inconsolata', monospace;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.nav {
+  --nav-height: 4rem;
+  padding: 0 1rem;
+  display: flex;
+  border-bottom: 2px solid var(--accent-color);
+  line-height: var(--nav-height);
+}
+.nav h1 {
+  flex: 1;
+  margin: 0;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline-block;
+  font-size: 1.125rem;
+  padding: 0 0.5rem;
+}
+.nav a {
+  color: var(--text-color);
+}
+.nav a:hover {
+  color: var(--accent-color);
+}
