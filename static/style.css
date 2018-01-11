@@ -6,7 +6,17 @@ html, body {
 }
 
 body, button {
-  font-family: 'Roboto', monospace;
+  font-family: 'Roboto';
+}
+
+.generated {
+  text-align: center;
+  font-size: 3.125rem;
+  min-height: 70px;
+}
+
+span {
+  vertical-align: middle;
 }
 
 a {
@@ -42,4 +52,28 @@ a:hover {
 }
 .nav a:hover {
   color: var(--accent-color);
+}
+
+.botton-bar ul {
+  list-style-type: none;
+}
+
+.bottom-bar li {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+.bottom-bar {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.icon-images {
+  width: 20px;
+  height:20px;
 }
