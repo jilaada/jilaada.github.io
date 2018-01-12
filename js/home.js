@@ -27,7 +27,6 @@ generatedEl.addEventListener('animationend', () => {
   generatedEl.classList.remove('run')
   void generatedEl.offsetWidth
   generatedEl.classList.add('run')
-  console.log("end")
 })
 
 const makeContent = () => {
