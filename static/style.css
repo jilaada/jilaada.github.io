@@ -6,6 +6,10 @@
   100% {color: white;}
 }
 
+@keyframes enlarge-buttons {
+
+}
+
 html, body, #container, #wrap, .main {
   height: 100%;
 }
@@ -97,4 +101,9 @@ a {
 .icon-images {
   width: 20px;
   height: auto;
+  transition: transform 0.2s ease-out;
+}
+
+.icon-images:hover {
+  transform: scale(1.2);
 }
