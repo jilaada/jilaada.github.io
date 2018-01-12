@@ -9,7 +9,7 @@ const makeName = () => {
 }
 
 // Define the choices 
-const helloChoices = ["Hi", "你好"]
+const helloChoices = ["Hi", "Kia ora", "你好", "안녕", "こんにちは", "สวัสดี", "Bonjour", "Hallo", "Ciao", "Talofa"]
 let counter = 0
 
 const cycleHello = () => {
