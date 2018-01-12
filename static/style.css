@@ -31,9 +31,9 @@ body, button {
   font-family: 'Roboto';
 }
 
-#animate {
-  animation: switch-text infinite;
-  animation-duration: 2s;
+#animate.run {
+  animation: switch-text 2s 1;
+  min-height: 100px;
 }
 
 .generated {
@@ -53,7 +53,7 @@ body, button {
 }
 
 #static {
-  padding: 3vh 0 0 0;
+  padding: 0;
 }
 
 a {
