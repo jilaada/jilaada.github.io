@@ -24,7 +24,7 @@ const cycleHello = () => {
 const generatedEl = document.querySelector('.generated')
 
 const makeContent = () => {
-  generatedEl.innerText = helloChoices[cycleHello()]+", I'm Jilada"
+  generatedEl.innerText = helloChoices[cycleHello()] + ","
 }
 
 makeContent()

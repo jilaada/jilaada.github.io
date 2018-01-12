@@ -1,3 +1,11 @@
+/* Animations */
+@keyframes switch-text {
+  0%  {color: white;}
+  50% {color: var(--text-color);}
+  75% {color: rgb(53, 53, 53);}
+  100% {color: white;}
+}
+
 html, body, #container, #wrap, .main {
   height: 100%;
 }
@@ -19,15 +27,21 @@ body, button {
   font-family: 'Roboto';
 }
 
+#animate {
+  animation: switch-text infinite;
+  animation-duration: 2s;
+}
+
 .generated {
   margin: 0;
+  padding: 20vh 0 0 0;
   text-align: center;
   font-size: 3.125rem;
   min-height: 70px;
 }
 
-h1 {
-  padding: 20vh 0 0 0;
+#static {
+  padding: 10px 0 0 0;
 }
 
 a {
@@ -38,7 +52,6 @@ a {
 .nav {
   width: 100%;
   --nav-height: 4rem;
-  padding: 0 1rem;
   text-align: center;
   background-color: #323232;
   line-height: var(--nav-height);
