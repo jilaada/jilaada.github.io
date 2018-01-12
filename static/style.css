@@ -6,7 +6,7 @@
   100% {color: white;}
 }
 
-@keyframes enlarge-buttons {
+@keyframes eggy {
 
 }
 
@@ -44,8 +44,16 @@ body, button {
   min-height: 70px;
 }
 
+.egg-view {
+  margin: 0;
+  padding: 10vh 0 0 0;
+  text-align: center;
+  font-size: 5.125rem;
+  min-height: 70px;
+}
+
 #static {
-  padding: 10px 0 0 0;
+  padding: 3vh 0 0 0;
 }
 
 a {
@@ -86,6 +94,7 @@ a {
 .bottom-bar li {
   display: inline-block;
   padding: 0 0.5rem;
+  font-size: 0.75rem;
 }
 
 .bottom-bar {
@@ -107,3 +116,4 @@ a {
 .icon-images:hover {
   transform: scale(1.2);
 }
+
