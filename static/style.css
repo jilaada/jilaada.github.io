@@ -6,8 +6,15 @@
   100% {color: white;}
 }
 
-@keyframes eggy {
-
+@keyframes highlight {
+  from {
+    background-color: white;
+    color: var(--text-color);
+  }
+  to {
+    background-color: var(--accent-color);
+    color: white;
+  }
 }
 
 html, body, #container, #wrap, .main {
@@ -129,7 +136,7 @@ a {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   background-color: #fff;
   color: #444;
 }
@@ -143,5 +150,6 @@ a {
 .box:hover {
   background-color: var(--accent-color);
   color: white;
+  animation: highlight 0.5s;
 }
 
