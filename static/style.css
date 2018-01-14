@@ -1,9 +1,9 @@
 /* Animations */
 @keyframes switch-text {
-  0%  {color: white;}
-  50% {color: var(--text-color);}
-  75% {color: rgb(53, 53, 53);}
-  100% {color: white;}
+  0%  {opacity: 0;}
+  50% {opacity: 1;}
+  75% {opacity: 1;}
+  100% {opacity: 0;}
 }
 
 @keyframes highlight {
@@ -29,6 +29,11 @@ div {
   padding-top: 4rem;
 }
 
+#container {
+  background-image: url("images/background-image.jpg");
+  background-size: cover;
+}
+
 html, body {
   height: 100%;
   --accent-color: #8a8a8a;
@@ -50,6 +55,7 @@ body, button {
 }
 
 .generated {
+  color: white;
   margin: 0;
   padding: 15vh 0 0 0;
   text-align: center;
@@ -76,12 +82,14 @@ a {
 
 .nav {
   width: 100%;
-  --nav-height: 4rem;
+  --nav-height: 3rem;
   text-align: center;
   background-color: #323232;
   line-height: var(--nav-height);
   position: fixed;
   top: 0;
+  height: var(--nav-height);
+  opacity: 0.75;
 }
 
 .nav ul {
@@ -92,7 +100,7 @@ a {
 .nav li {
   display: inline-block;
   font-size: 1 rem;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
 }
 .nav a {
   color: var(--nav-text-color);
@@ -119,6 +127,7 @@ a {
   left: 0;
   padding-right: 40px;
   text-align: right;
+  opacity: 0.75;
 }
 
 .icon-images {
