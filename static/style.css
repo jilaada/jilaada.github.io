@@ -8,12 +8,12 @@
 
 @keyframes highlight {
   from {
-    background-color: white;
-    color: var(--text-color);
+    background-color: #323232;
+    background-color: rgba(50, 50, 50, 0.75);
   }
   to {
-    background-color: var(--accent-color);
-    color: white;
+    background-color: rgb(160, 78, 31);
+    background-color: rgba(160, 78, 31, 0.75);
   }
 }
 
@@ -25,10 +25,6 @@ div {
   margin: 0;
 }
 
-.main {
-  padding-top: 4rem;
-}
-
 #container {
   background-image: url("images/background-image.jpg");
   background-size: cover;
@@ -36,6 +32,7 @@ div {
 
 html, body {
   height: 100%;
+  background-color: #323232;
   --accent-color: #8a8a8a;
   --text-color: #000;
   --nav-text-color: #f2f2f2;
@@ -83,12 +80,16 @@ a {
   width: 100%;
   --nav-height: 3rem;
   text-align: center;
-  background-color: #323232;
+  background-color: rgb(50, 50, 50);
+  background-color: rgba(50, 50, 50, 0.75);
   line-height: var(--nav-height);
   position: fixed;
   top: 0;
   height: var(--nav-height);
-  opacity: 0.75;
+}
+
+.main {
+  padding-top: 3rem;
 }
 
 .nav ul {
@@ -100,6 +101,7 @@ a {
   display: inline-block;
   font-size: 1 rem;
   padding: 0 1rem;
+  opacity: 1;
 }
 .nav a {
   color: var(--nav-text-color);
@@ -127,6 +129,7 @@ a {
   padding-right: 40px;
   text-align: right;
   opacity: 0.75;
+  height: 3rem;
 }
 
 .icon-images {
@@ -141,21 +144,24 @@ a {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 100%;
-  background-color: #fff;
+  grid-template-columns: 50% 50%;
+  background-color: #000000 none;
   color: #444;
+  margin: 0 0 3rem 0;
 }
 
 .box {
-  background-color: white;
-  color: var(--text-color);
+  background-color: #323232;
+  background-color: rgba(50, 50, 50, 0.75);
+  color: var(--nav-text-color);
   padding: 20px;
   text-align: center;
+  
 }
 
 .box:hover {
-  background-color: var(--accent-color);
-  color: white;
+  background-color: rgb(160, 78, 31);
+  background-color: rgba(160, 78, 31, 0.75);
   animation: highlight 0.5s;
 }
 
