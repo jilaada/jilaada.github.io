@@ -28,12 +28,13 @@ html, body {
 }
 
 body, button {
-  font-family: 'Roboto';
+  font-family: -apple-system,BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #animate {
   animation: switch-text infinite;
   animation-duration: 2s;
+  font-size: 4.125rem;
 }
 
 .generated {
@@ -41,7 +42,7 @@ body, button {
   padding: 20vh 0 0 0;
   text-align: center;
   font-size: 3.125rem;
-  min-height: 70px;
+  min-height: 80px;
 }
 
 .egg-view {
