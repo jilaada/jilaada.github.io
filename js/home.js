@@ -22,13 +22,16 @@ const cycleHello = () => {
 }
 
 const generatedEl = document.querySelector('.generated')
+generatedEl.addEventListener('animationend', () => {
+  makeContent()
+  generatedEl.classList.remove('run')
+  void generatedEl.offsetWidth
+  generatedEl.classList.add('run')
+})
 
 const makeContent = () => {
   generatedEl.innerText = helloChoices[cycleHello()] + ","
 }
-
-makeContent()
-setInterval(makeContent, 2000)
 
 class Jilada {
   constructor(props) {
