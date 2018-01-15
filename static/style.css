@@ -144,7 +144,7 @@ a {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   background-color: #000000 none;
   color: #444;
   margin: 0 1.5rem 3rem 1.5rem;
@@ -159,9 +159,5 @@ a {
   
 }
 
-.box:hover {
-  background-color: rgb(160, 78, 31);
-  background-color: rgba(160, 78, 31, 0.75);
-  animation: highlight 0.5s;
-}
+
 

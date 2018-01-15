@@ -4,6 +4,29 @@
   font-size: 1.5rem;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #000000 none;
+  color: #444;
+  margin: 0 1.5rem 3rem 1.5rem;
+}
+
+.box {
+  background-color: #323232;
+  background-color: rgba(50, 50, 50, 0.75);
+  color: var(--nav-text-color);
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.box:hover {
+  background-color: rgb(160, 78, 31);
+  background-color: rgba(160, 78, 31, 0.75);
+  animation: highlight 0.5s;
+}
+
 .a {
   grid-column: 1;
   grid-row: 1;
