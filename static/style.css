@@ -99,8 +99,8 @@ a {
 }
 .nav li {
   display: inline-block;
-  font-size: 1 rem;
-  padding: 0 1rem;
+  font-size: 1rem;
+  padding: 0 3rem;
   opacity: 1;
 }
 .nav a {
@@ -145,15 +145,13 @@ a {
 .wrapper {
   display: grid;
   grid-template-columns: 100%;
+  grid-gap: 1rem;
   background-color: #000000 none;
   color: #444;
   margin: 0 1.5rem 3rem 1.5rem;
 }
 
 .box {
-  background-color: #323232;
-  background-color: rgba(50, 50, 50, 0.75);
-  color: var(--nav-text-color);
   padding: 20px;
   text-align: center;
   
