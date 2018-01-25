@@ -7,8 +7,8 @@ html, body {
   text-align: left;
   font-size: 2rem;
   padding: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .title h1 {
@@ -23,7 +23,7 @@ html, body {
   grid-template-columns: 100%;
   background-color: #000000 none;
   color: #444;
-  margin: 0 1.5rem 3rem 1.5rem;
+  margin: 0 10% 3rem 10%;
 }
 
 .box {
