@@ -23,7 +23,15 @@ html, body {
   grid-template-columns: 100%;
   background-color: #000000 none;
   color: #444;
-  margin: 0 10% 3rem 10%;
+  margin: 0 7.5% 3rem 7.5%;
+}
+
+a {
+  color: var(--nav-text-color);
+}
+
+a:hover {
+  color: var(--accent-color);
 }
 
 .box {

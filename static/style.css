@@ -127,7 +127,7 @@ a {
   bottom: 0;
   left: 0;
   padding-right: 40px;
-  text-align: right;
+  text-align: center;
   opacity: 0.75;
   height: 3rem;
 }
@@ -154,7 +154,6 @@ a {
 .box {
   padding: 20px;
   text-align: center;
-  
 }
 
 
