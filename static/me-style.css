@@ -19,7 +19,7 @@ html, body {
   -webkit-text-fill-color: transparent;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 200px) {
   .wrapper {
     display: grid;
     grid-template-columns: 100%;
@@ -29,13 +29,23 @@ html, body {
   }
 }
 
+@media (min-width: 500px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #000000 none;
+    color: #444;
+    margin: 0 5vw 4rem 5vw;
+  }
+}
+
 @media (min-width: 1000px) {
   .wrapper {
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #000000 none;
     color: #444;
-    margin: 0 7.5% 4rem 7.5%;
+    margin: 0 10vw 4rem 10vw;
   }
 }
 
