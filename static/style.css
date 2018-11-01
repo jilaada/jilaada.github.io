@@ -14,7 +14,8 @@
 
 html, body, #container, #wrap, .main {
   min-height: 100%;
-  --accent-color: #8a8a8a;
+  --accent-color: #C1C1C1;
+  --pink-accent: #F26D6D;
   --text-color: #FC642E;
   --nav-text-color: #f2f2f2;
   --background-color: #323232;
@@ -57,7 +58,7 @@ body, button {
 
 #animate.run {
   animation: switch-text 2s 1;
-  min-height: 10vmax;
+  min-height: 13vmax;
   font-size: 7vmax;
 }
 
@@ -108,7 +109,7 @@ a {
 
 .nav li {
   display: inline-block;
-  font-size: 100%;
+  font-size: 120%;
   padding: 0 5vmin;
   opacity: 1;
 }
