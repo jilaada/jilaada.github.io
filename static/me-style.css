@@ -20,6 +20,11 @@ html, body {
   -webkit-text-fill-color: transparent;
 }
 
+.container {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
 .container-fluid {
   padding-bottom: 2rem;
 }
