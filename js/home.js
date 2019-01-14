@@ -8,6 +8,7 @@ const makeName = () => {
   return `J${rand[0]}l${rand[1]}d${rand[2]}`
 }
 
+
 // Define the choices 
 const helloChoices = ["Hi", "Kia ora", "你好", "안녕", "こんにちは", "สวัสดี", "Bonjour", "Hallo", "Ciao", "Talofa"]
 let counter = 0

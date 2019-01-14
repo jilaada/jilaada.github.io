@@ -39,7 +39,7 @@ html, body {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
   .wrapper {
     display: grid;
     grid-template-columns: 50% 50%;

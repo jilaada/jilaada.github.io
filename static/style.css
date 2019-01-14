@@ -28,13 +28,8 @@ div {
   margin: 0;
 }
 
-#container {
-  background-image: url("images/background-image-phone.jpg");
-  background-size: cover;
-}
-
 @media (min-width: 500px) {
-  #container {
+  body {
     background-image: url("images/background-image.jpg");
     background-size: cover;
   }
@@ -45,6 +40,8 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: var(--background-color);
+  background-image: url("images/background-image-phone.jpg");
+  background-size: cover;
 }
 
 body, button {
@@ -65,7 +62,7 @@ body, button {
 .generated {
   color: var(--text-color);
   margin: 0;
-  padding: 15vh 0 0 0;
+  padding: 15vh 0 3vh 0;
   text-align: center;
   font-size: 5vmax;
   min-height: 6vmax;
@@ -90,7 +87,7 @@ a {
 
 /* Navigation Bar */
 
-.nav {
+/*.nav {
   width: 100%;
   text-align: center;
   background-color: var(--background-color);
@@ -120,7 +117,39 @@ a {
 
 .nav a:hover {
   color: var(--accent-color);
+}*/
+
+
+.navbar {
+  background-color: var(--background-color-fade);
 }
+
+.navbar-toggler, .navbar-toggler,button.navbar-toggler {
+  outline: none;
+  box-shadow: none;
+  border-style: none;
+}
+.navbar-inner {
+  background:transparent;
+}
+.navbar a:hover{
+  color: cyan !important;
+  text-decoration: underline
+  border-bottom: 2px solid pink;
+}
+.preview{
+  color: white !important;
+  list-style-type: none;
+}
+.preview a:hover{
+  color: cyan !important;
+  cursor: pointer;
+  list-style-type: none;
+}
+.collapse, .in{
+  display: inline-block; text-align: left;  
+}
+
 
 /* Footer */
 
