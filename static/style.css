@@ -22,6 +22,11 @@ html, body, #container, #wrap, .main {
   --background-color-fade: rgba(50, 50, 50, 0.75);
   --White-color: white;
   --nav-height: 3rem;
+  --pink-color: #D54556;
+  --orange-color: #FCA211;
+  --green-color: #BDC141;
+  --blue-color: #19A9B5;
+  --purple-color: #B890B7;
 }
 
 div {
@@ -91,40 +96,6 @@ a {
 }
 
 /* Navigation Bar */
-
-/*.nav {
-  width: 100%;
-  text-align: center;
-  background-color: var(--background-color);
-  background-color: var(--background-color-fade);
-  line-height: var(--nav-height);
-  height: var(--nav-height);
-  position: fixed;
-  top: 0;
-}
-
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav li {
-  display: inline-block;
-  font-size: 120%;
-  padding: 0 5vmin;
-  opacity: 1;
-}
-
-.nav a {
-  color: var(--nav-text-color);
-}
-
-.nav a:hover {
-  color: var(--accent-color);
-}*/
-
-
 .navbar {
   background-color: var(--background-color-fade);
   padding-left: 10vw;
@@ -166,7 +137,6 @@ a {
 
 
 /* Footer */
-
 .botton-bar ul {
   list-style-type: none;
 }
@@ -198,23 +168,3 @@ a {
 .icon-images:hover {
   transform: scale(1.2);
 }
-
-/* CSS Grid */
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-gap: 1rem;
-  background-color: #000000 none;
-  color: #444;
-  
-  margin: 0 10% 3rem 10%;
-}
-
-.box {
-  padding: 20px;
-  text-align: center;
-}
-
-
-

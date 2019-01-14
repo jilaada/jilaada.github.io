@@ -8,81 +8,48 @@ html, body {
   padding: 1.5rem;
   margin-left: 10%;
   margin-right: 10%;
+  width: 100%;
 }
 
 .title h1 {
   margin: 0.5rem 0;
-  font-size: 8vmin;
+  font-size: 2.5rem;
   font-weight: 300;
   background: linear-gradient(#FB4D6B, #FC642E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-@media (min-width: 200px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 100%;
-    background-color: #000000 none;
-    color: #444;
-    margin: 0 0 8vh 0;
-  }
-}
-
-@media (min-width: 500px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 100%;
-    background-color: #000000 none;
-    color: #444;
-    margin: 0 5vw 8vh 5vw;
-  }
-}
-
-@media (min-width: 1300px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: #000000 none;
-    color: #444;
-    margin: 0 10vw 8vh 10vw;
-  }
+.container-fluid {
+  padding-bottom: 2rem;
 }
 
 a {
-  color: var(--nav-text-color);
+  color: #C1C1C1;
 }
 
 a:hover {
   color: var(--pink-accent);
-}
-
-.a {
-  grid-column: 
-}
-
-.box {
-  background-color: none;
-  color: #B8B8B8;
-  padding: 0.5rem 1.5rem;
-  text-align: center;
+  text-decoration: none;
 }
 
 .left-text {
   color: #F9F0EC;
-  font-size: 4vmin;
-  padding-left: 0.75rem;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  letter-spacing: 2px;
 }
 
 p {
   margin: 0;
   padding: 0.5rem 0;
   text-align: left;
+  letter-spacing: 1px;
 }
 
 .small-text {
-  color: #C1C1C1;
-  font-size: 3vmin;
+  color: var(--nav-text-color);
+  font-size: 1rem;
   margin: 0;
   padding: 0.5rem 0;
   text-align: left;
