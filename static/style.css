@@ -28,13 +28,6 @@ div {
   margin: 0;
 }
 
-@media (min-width: 500px) {
-  body {
-    background-image: url("images/background-image.jpg");
-    background-size: cover;
-  }
-}
-
 html, body {
   height: 100%;
   margin: 0;
@@ -42,6 +35,13 @@ html, body {
   background-color: var(--background-color);
   background-image: url("images/background-image-phone.jpg");
   background-size: cover;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-image: url("images/background-image.jpg");
+    background-size: cover;
+  }
 }
 
 body, button {
@@ -122,6 +122,8 @@ a {
 
 .navbar {
   background-color: var(--background-color-fade);
+  padding-left: 10vw;
+  letter-spacing: 4px;
 }
 
 .navbar-toggler, .navbar-toggler,button.navbar-toggler {
@@ -132,22 +134,30 @@ a {
 .navbar-inner {
   background:transparent;
 }
+.navbar ul a {
+  padding-right: 15px !important;
+}
 .navbar a:hover{
-  color: cyan !important;
-  text-decoration: underline
+  color: orange !important;
+  text-decoration: underline;
   border-bottom: 2px solid pink;
+}
+.navbar-nav {
+  padding-right: 5vw;
 }
 .preview{
   color: white !important;
   list-style-type: none;
 }
 .preview a:hover{
-  color: cyan !important;
+  color: orange !important;
   cursor: pointer;
   list-style-type: none;
 }
 .collapse, .in{
-  display: inline-block; text-align: left;  
+  display: inline-block; 
+  text-align: left;  
+  /*padding-left: 0 !important;*/
 }
 
 
@@ -169,6 +179,7 @@ a {
   bottom: 0;
   left: 0;
   padding-right: 40px;
+  padding-top: 0.5rem;
   text-align: center;
   opacity: 0.75;
   height: var(--nav-height);
